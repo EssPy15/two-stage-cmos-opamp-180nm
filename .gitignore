@@ -1,0 +1,17 @@
+# Cadence lock files (CRITICAL to ignore)
+*.cdslck
+*.cdslck.*
+
+# Simulation and log files
+*.log
+*.err
+/sim/
+/simulation/
+/LVS/
+/DRC/
+/PEX/
+*.ahdlSimDB/
+
+# OS generated files
+.DS_Store
+*~
