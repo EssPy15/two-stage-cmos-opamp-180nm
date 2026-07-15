@@ -1,0 +1,87 @@
+// Generated for: spectre
+// Generated on: Jul 14 11:27:32 2026
+// Design library name: opamp
+// Design cell name: opamp_1
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfres_sa
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfmvar
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rtmom
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_disres
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfesd
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_mim
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_fmom
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfres_rpo
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_m
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfmim
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_res
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_bip
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_bip3
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_dio3
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_3v
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_na
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_dio
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_dio_m
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfind
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_dio_3m
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_bbmvar
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfres_hri
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_3vna
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_dio_dnw
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_3m
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfjvar
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfmos
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfsbd
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfmvar_33
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rfmos33
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=tt_rffmom
+include "/home/TSMC180/IC6/TSMC180/tsmc18/../models/spectre/cr018gpii_v1d0.scs" section=stat_noise
+
+// Library name: opamp
+// Cell name: opamp_1
+// View name: schematic
+M6 (net8 net3 net1 net1) pch l=500n w=104.3u m=1 nf=10 sd=540.0n \
+        ad=2.8161e-11 as=3.25416e-11 pd=109.7u ps=131.4u nrd=0.00258869 \
+        nrs=0.00258869 sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+M1 (net2 net2 net1 net1) pch l=1u w=39.52u m=1 nf=8 sd=540.0n \
+        ad=1.06704e-11 as=1.27452e-11 pd=43.84u ps=54.56u nrd=0.00683198 \
+        nrs=0.00683198 sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+M0 (net3 net2 net1 net1) pch l=1u w=39.52u m=1 nf=8 sd=540.0n \
+        ad=1.06704e-11 as=1.27452e-11 pd=43.84u ps=54.56u nrd=0.00683198 \
+        nrs=0.00683198 sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+M7 (net8 net5 0 0) nch l=1u w=48.06u m=1 nf=18 sd=540.0n ad=1.29762e-11 \
+        as=1.40976e-11 pd=57.78u ps=63.96u nrd=0.00561798 nrs=0.00561798 \
+        sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+M5 (net5 net5 0 0) nch l=1u w=5.22u m=1 nf=2 sd=540.0n ad=1.4094e-12 \
+        as=2.5056e-12 pd=6.3u ps=12.36u nrd=0.0517241 nrs=0.0517241 \
+        sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+M4 (net4 net5 0 0) nch l=1u w=20.88u m=1 nf=8 sd=540.0n ad=5.6376e-12 \
+        as=6.7338e-12 pd=25.2u ps=31.26u nrd=0.012931 nrs=0.012931 \
+        sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+M3 (net3 net6 net4 0) nch l=500n w=6.42u m=1 nf=2 sd=540.0n ad=1.7334e-12 \
+        as=3.0816e-12 pd=7.5u ps=14.76u nrd=0.0420561 nrs=0.0420561 \
+        sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+M2 (net2 net7 net4 0) nch l=500n w=6.42u m=1 nf=2 sd=540.0n ad=1.7334e-12 \
+        as=3.0816e-12 pd=7.5u ps=14.76u nrd=0.0420561 nrs=0.0420561 \
+        sa=480.0n sb=480.0n sca=0 scb=0 scc=0
+V2 (net6 0) vsource dc=900.0m mag=500m phase=0 type=dc
+V1 (net7 0) vsource dc=900.0m mag=500m phase=180 type=dc
+V0 (net1 0) vsource dc=1.8 type=dc
+I3 (net1 net5) isource dc=10u type=dc
+C2 (net8 0) capacitor c=10p
+R0 (net9 net8 ) rppo1rpo l=27.47u w=2u mf=(1) m=1 mismatchflag=1
+
+C0 (net3 net9) mimcap_2p0_sin lt=10u wt=10u mf=10 mismatchflag=1
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub
